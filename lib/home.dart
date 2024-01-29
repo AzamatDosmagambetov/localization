@@ -12,15 +12,15 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   List locales = [
     "English",
-    "فارسی",
-    "العربی"
+    "فرسی",
+    "Spain"
   ];
 
   //Language code use to change language based on code
   List localeCodes = [
     "en",
     "fa",
-    "ar"
+    "es"
   ];
 
   int currentIndex = 0;

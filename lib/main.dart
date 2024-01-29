@@ -4,7 +4,7 @@ import 'package:localization_app/home.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  await Locales.init(['en', 'fa', 'ar']);
+  await Locales.init(['en', 'fa', 'es']);
   runApp(const MyApp());
 }
 
